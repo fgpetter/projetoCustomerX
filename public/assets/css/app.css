@@ -1,0 +1,70 @@
+/*
+Roxo 100 #82549D
+Roxo 200 #68388D
+Roxo 300 #4C2B7B
+Roxo 400 #412A64
+*/
+
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;600;800&display=swap');
+body {
+  /*font-family: 'Noto Sans JP', sans-serif;*/
+  font-family: 'Nunito', sans-serif;
+  font-weight: 300;
+}
+
+.logo{
+  color: #68388D;
+}
+
+input.form-clean {
+  border: none;
+  background: none;
+  width: 100%;
+}
+
+input.form-clean.cadastrar{
+  width: 100%;
+}
+
+input.form-clean.cadastrar:focus{
+  outline-color: #82549D;
+}
+
+input.form-clean:focus{
+  outline-color: #82549D;
+}
+
+input.form-clean-btn {
+  background-color: #82549D;
+}
+
+input.form-clean-btn.remover {
+  background-color: #DA4F6F;
+}
+
+input.form-clean-btn.cadastrar {
+  background-color: #4C2B7B;
+}
+
+.accordion-button{
+  transition: all 0.5s ease;
+}
+
+.accordion-button.novo-cliente {
+  color: #68388D;
+  font-weight: 600;
+  font-size: 1.1rem;  
+}
+
+.accordion-button:focus {
+  border-color: transparent;
+  box-shadow: none;
+}
+.accordion-button:not(.collapsed){
+  background-color: transparent;
+  font-size: 1.2rem;
+  color: #68388D;
+  font-weight: 600;
+}
