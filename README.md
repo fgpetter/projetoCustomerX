@@ -19,6 +19,12 @@ Caso queira manter como está, use o servidor imbutido do php rodando o comando:
 
 4- Copie e execute os comandos SQL que estão nos arquivos */ArquivosSQL/Usuários.sql, /ArquivosSQL/Clientes.sql, /ArquivosSQL/Contatos.sql* em seu software de gerenciamento MyQL(Ex PHP MyAdmin ou MySQL Workbench) para fazer a migração da base de exemplo;
 
+5- Execute o composer:
+
+    composer install
+
+Está pronto para usar!
+
 ### Uso:
 Login:
 
