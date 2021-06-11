@@ -3,7 +3,6 @@
 namespace App\Models;
 
 use App\Database;
-use App\Helpers;
 
 class Clientes {
 

@@ -2,11 +2,6 @@
 
 session_start();
 
-/**
- * Carrega as classes através do composer autoload
- */
-use App\Helpers;
-
 require_once('../vendor/autoload.php');
 
 /**
