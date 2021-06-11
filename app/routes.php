@@ -13,21 +13,33 @@
  * Lista das rotas criadas na aplicação
  */
 $routes = [
-
+    
     'index' => 'mainController@index',
 
+    'login' => 'mainController@login',
+    'logon' => 'authController@login',
+    'cadastro' => 'mainController@cadastro',
+    'cadastra-usuario' => 'authController@cadastraUsuario',
+    
     'clientes' => 'mainController@clientes',
     'cadastrar-cliente' => "mainController@insertCliente",
     'atualizar-cliente' => "mainController@updateCliente",
     'remover-cliente' => "mainController@deleteCliente",
-
+    
     'cadastrar-contato' => "mainController@insertContato",
     'atualizar-contato' => "mainController@updateContato",
     'remover-contato' => "mainController@deleteContato",
-
+    
 ];
 
+
 $redirect = "index";
+
+if (empty($_SESSION['user'])){
+    
+    $redirect = "login";
+
+}
 
 /**
  * Verifica se a rota passda existe na lista, caso contrário redireciona para index

@@ -24,16 +24,20 @@ input.form-clean {
   width: 100%;
 }
 
-input.form-clean.cadastrar{
+input.form-clean--cadastrar{
   width: 100%;
 }
 
-input.form-clean.cadastrar:focus{
+input.form-clean--cadastrar:focus{
   outline-color: #82549D;
 }
 
 input.form-clean:focus{
   outline-color: #82549D;
+}
+
+.clean-btn {
+  background-color: #82549D;
 }
 
 input.form-clean-btn {

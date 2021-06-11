@@ -2,7 +2,6 @@
 
 namespace App\Controllers;
 
-use App\Helpers;
 use App\Models\Clientes;
 use App\Models\Contatos;
 use App\Render;
@@ -20,7 +19,7 @@ class MainController {
 
         $clientes = (new Clientes)->getClientes();
         $contatos = (new Contatos)->getContatos();
-        
+       
         $data = [
             "clientes" => $clientes,
             "contatos" => $contatos
@@ -33,6 +32,30 @@ class MainController {
         ], $data);
 
     }
+
+
+    public function login():void
+    {
+        Render::Layout([
+            "html_header",
+            "login",
+            "html_footer"
+        ]);
+
+    }
+
+
+    public function cadastro():void
+    {
+        Render::Layout([
+            "html_header",
+            "cadastro",
+            "html_footer"
+        ]);
+
+    }
+
+
 
 
     /**
