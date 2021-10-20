@@ -2,7 +2,7 @@
 
 define('DATABASE_CONSTANTS',[
     'host'      => 'localhost',
-    'dbname'    => 'customerx',
+    'dbname'    => 'customers',
     'username'  => 'root',
     'password'  => '',
     'charset'   => 'utf8',

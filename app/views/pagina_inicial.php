@@ -1,7 +1,7 @@
 <nav class="navbar navbar-light bg-light mb-5">
   <div class="container">
     <span class="navbar-brand mb-0">
-      <h2 class="logo"><strong>Customer</strong>X</h2>
+      <h2 class="logo"><strong>Gestão de </strong>Contatos</h2>
     </span>
   </div>
 </nav>
@@ -19,7 +19,7 @@
 
   <div class="card">
     <div class="card-body">
-      <h3 class="card-title my-3 px-1">Clientes CustomerX</h3>
+      <h3 class="card-title my-3 px-1">Gestão de clientes</h3>
       <hr class="mb-4"> 
       <div class="accordion accordion-flush" id="accordionFlushExample">
         <div class="accordion-item mb-3">

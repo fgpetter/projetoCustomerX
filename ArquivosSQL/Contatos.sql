@@ -1,4 +1,4 @@
-CREATE TABLE `customerx`.`contatos` (
+CREATE TABLE `gestaocontatos`.`contatos` (
 	`id` INT(10) UNSIGNED NOT NULL AUTO_INCREMENT,
 	`nome` VARCHAR(255) NOT NULL COLLATE 'utf8_general_ci',
 	`email` VARCHAR(50) NULL DEFAULT NULL COLLATE 'utf8_general_ci',

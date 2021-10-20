@@ -8,7 +8,7 @@ Para executar esse projeto em seu local, siga os seguintes passos:
 
 1- Clone o projeto em seu local;
 
-    git clone https://github.com/fgpetter/projetoCustomerX.git
+    git clone https://github.com/fgpetter/projetoGestaoContatos.git
 
 2- Acesse o arquivo /*config.php* e altere a variavel de ambiente "SITE_URL" para o link que você irá usar;
 Caso queira manter como está, use o servidor imbutido do php rodando o comando:

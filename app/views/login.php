@@ -1,7 +1,7 @@
 <nav class="navbar navbar-light bg-light mb-5">
   <div class="container">
     <span class="navbar-brand mb-0">
-      <h2 class="logo"><strong>Customer</strong>X</h2>
+      <h2 class="logo"><strong>Gestão de </strong>Contatos</h2>
     </span>
   </div>
 </nav>

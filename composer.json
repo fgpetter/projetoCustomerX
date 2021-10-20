@@ -1,5 +1,5 @@
 {
-    "name": "fgpetter/customerx",
+    "name": "fgpetter/gestaocontatos",
     "description": "Cadastro de clientes e contatos associados",
     "type": "project",
     "require": {
